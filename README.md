@@ -122,16 +122,24 @@ model = me.RP(n, projections=projections,
 If you use `maximum_entropy_package` in your research, please cite it as follows:
 
 ```
-@software{maximum_entropy_package,
-  author = {Jonathan Mayzel},
-  title = {maximum_entropy_package},
-  year = {2024},
-  url = {https://github.com/yonimayzel/maximum_entropy_package},
+@article{10.7554/eLife.96566.3,
+     article_type = {journal},
+     title = {Homeostatic synaptic normalization optimizes learning in network models of neural population codes},
+     author = {Mayzel J and Schneidman E},
+     volume = 13,
+     year = 2024,
+     pages = {e},
+     citation = {eLife2024;13:RP96566},
+     doi = {10.7554/eLife.96566.3},
+     url = {https://doi.org/10.7554/eLife.96566.3}, 
+     journal = {eLife},
+     publisher = {eLife Sciences Publications, Ltd},
 }
+
 ```
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Authors and Contributors
-Jonathan Mayzel, yoni.mayzel@gmail.com
+Jonathan Mayzel, yoni.mayzel@gmail.com and Elad Schneidman, elad.schneidman@weizmann.ac.il
